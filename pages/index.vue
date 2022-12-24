@@ -346,7 +346,7 @@
                                             <td class="border-top-0 px-2 py-4">
                                                 <div class="d-flex no-block align-items-center">
                                                     <div class="mr-3"><img
-                                                            src="../assets/images/users/widget-table-pic1.jpg"
+                                                            src="/vendor/images/users/widget-table-pic1.jpg"
                                                             alt="user" class="rounded-circle" width="45"
                                                             height="45" /></div>
                                                     <div class="">
@@ -383,7 +383,7 @@
                                             <td class="px-2 py-4">
                                                 <div class="d-flex no-block align-items-center">
                                                     <div class="mr-3"><img
-                                                            src="../assets/images/users/widget-table-pic2.jpg"
+                                                            src="/vendor/images/users/widget-table-pic2.jpg"
                                                             alt="user" class="rounded-circle" width="45"
                                                             height="45" /></div>
                                                     <div class="">
@@ -416,7 +416,7 @@
                                             <td class="px-2 py-4">
                                                 <div class="d-flex no-block align-items-center">
                                                     <div class="mr-3"><img
-                                                            src="../assets/images/users/widget-table-pic3.jpg"
+                                                            src="/vendor/images/users/widget-table-pic3.jpg"
                                                             alt="user" class="rounded-circle" width="45"
                                                             height="45" /></div>
                                                     <div class="">
@@ -451,7 +451,7 @@
                                             <td class="px-2 py-4">
                                                 <div class="d-flex no-block align-items-center">
                                                     <div class="mr-3"><img
-                                                            src="../assets/images/users/widget-table-pic4.jpg"
+                                                            src="/vendor/images/users/widget-table-pic4.jpg"
                                                             alt="user" class="rounded-circle" width="45"
                                                             height="45" /></div>
                                                     <div class="">

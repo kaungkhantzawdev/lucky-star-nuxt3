@@ -143,7 +143,7 @@
                                 edit_note
                                 </span>
                                 <span
-                                    class="hide-menu">Logout</span>
+                                    class="hide-menu">document</span>
                             </NuxtLink>
                         </li>
                         <li class="sidebar-item"> 
