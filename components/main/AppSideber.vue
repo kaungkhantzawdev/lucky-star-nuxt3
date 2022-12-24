@@ -1,5 +1,5 @@
 <template>
-    <aside class="left-sidebar" data-sidebarbg="skin6">
+    <aside class="left-sidebar" data-sidebarbg="skin6" style="overflow: auto">
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar" data-sidebarbg="skin6">
                 <!-- Sidebar navigation-->
@@ -17,6 +17,16 @@
                         <li class="list-divider"></li>
                         <li class="nav-small-cap"><span class="hide-menu">Applications</span></li>
                         <li class="sidebar-item">
+                            <NuxtLink class="sidebar-link sidebar-link" to="/avatars"
+                                aria-expanded="false">
+                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
+                                account_circle
+                                </span>
+                                <span
+                                    class="hide-menu">Avatars</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="sidebar-item">
                             <NuxtLink class="sidebar-link sidebar-link" to="/categories"
                                 aria-expanded="false">
                                 <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
@@ -27,13 +37,53 @@
                             </NuxtLink>
                         </li>
                         <li class="sidebar-item">
+                            <NuxtLink class="sidebar-link sidebar-link" to="/lucky-draw"
+                                aria-expanded="false">
+                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
+                                shapes
+                                </span>
+                                <span
+                                    class="hide-menu">Lucky draw</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="sidebar-item">
                             <NuxtLink class="sidebar-link sidebar-link" to="/products"
                                 aria-expanded="false">
                                 <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                storefront
+                                shopping_bag
                                 </span>
                                 <span
                                     class="hide-menu">Products</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="sidebar-item">
+                            <NuxtLink class="sidebar-link sidebar-link" to="/media"
+                                aria-expanded="false">
+                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
+                                perm_media
+                                </span>
+                                <span
+                                    class="hide-menu">Media</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="sidebar-item">
+                            <NuxtLink class="sidebar-link sidebar-link" to="/result"
+                                aria-expanded="false">
+                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
+                                receipt_long
+                                </span>
+                                <span
+                                    class="hide-menu">Result</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="sidebar-item">
+                            <NuxtLink class="sidebar-link sidebar-link" to="/shops"
+                                aria-expanded="false">
+                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
+                                store
+                                </span>
+                                <span
+                                    class="hide-menu">Shops</span>
                             </NuxtLink>
                         </li>
                         <li class="sidebar-item">
@@ -112,4 +162,8 @@
             </div>
             <!-- End Sidebar scroll-->
         </aside>
+   
 </template>
+
+
+
