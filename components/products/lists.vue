@@ -9,7 +9,7 @@
                         all products management
                     </h6>
                 </div>
-                <div class="d-flex aligin-items-center">
+                <div class="d-md-flex aligin-items-center">
                     <form>
                         <div class="d-flex mr-3">
                             <input class="form-control" type="text" placeholder="Search product">
@@ -17,7 +17,7 @@
                         </div>
                     </form>
                     <NuxtLink to="/products/create">
-                        <span class="btn waves-effect waves-light btn-success d-inline-block">Create Product</span>
+                        <span class="mt-2 mt-lg-0 btn waves-effect waves-light btn-success d-inline-block">Create Product</span>
                     </NuxtLink>
                 </div>
             </div>

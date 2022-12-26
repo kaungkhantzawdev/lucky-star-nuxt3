@@ -2,7 +2,7 @@
      <div class="auth-wrapper d-flex no-block justify-content-center align-items-center position-relative"
             style="background:url(/vendor/images/big/auth-bg.jpg) no-repeat center center;">
             <div class="auth-box row text-center">
-                <div class="col-lg-7 col-md-5 modal-bg-img" style="background-image: url(/vendor/images/big/3.jpg);">
+                <div class="col-lg-7 col-md-5 modal-bg-img" style="background-image: url(/vendor/images/big/img2.jpg);">
                 </div>
                 <div class="col-lg-5 col-md-7 bg-white">
                     <div class="p-3">

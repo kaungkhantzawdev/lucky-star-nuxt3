@@ -30,7 +30,7 @@
                         </div>
                         <div class="form-group">
                             <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                <option selected>Choose category</option>
+                                <option selected disabled>Choose category</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
@@ -46,12 +46,13 @@
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                    <option selected>Choose Status</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option selected disabled>Choose status</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
                                 <small id="name" class="form-text text-muted">Please, must be fill data</small>
                                 </div>
                             </div>
@@ -61,7 +62,7 @@
                             <small id="textHelp" class="form-text text-muted">Helper Text</small>
                         </div> -->
                         <div class="form-group">
-                            <QuillEditor theme="snow" placeholder="Write description ..."/>
+                            <QuillEditor theme="snow" placeholder="Write description ..." style="height: 200px"/>
                         </div>
                         <div class="d-flex justify-content-end">
                             <button type="button" class="btn waves-effect waves-light btn-success d-inline-block">Create Product</button>
@@ -122,3 +123,16 @@ defineComponent({
     QuillEditor
 })
 </script>
+<style scoped>
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
