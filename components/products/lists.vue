@@ -1,29 +1,28 @@
 <template>
     <div class="container-fluid">
-    <div class="col-8">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Add Products</h4>
-                    <form class="mt-3">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="nametext" aria-describedby="name" placeholder="Name">
-                            <small id="name" class="form-text text-muted">Helper Text</small>
-                        </div>
-                        <button type="button" class="btn waves-effect waves-light btn-success d-inline-block">Add Categorie</button>
-                    </form>
-             </div>
-        </div>
-    </div>
     <div class="col-12">
         <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Products table</h4>
-                <h6 class="card-subtitle">
-                    all products management
-                </h6>
+            <div class="card-body d-lg-flex alin-items-end justify-content-between">
+                <div>
+                    <h4 class="card-title">Products table</h4>
+                    <h6 class="card-subtitle">
+                        all products management
+                    </h6>
+                </div>
+                <div class="d-flex aligin-items-center">
+                    <form>
+                        <div class="d-flex mr-3">
+                            <input class="form-control" type="text" placeholder="Search product">
+                            <button class="btn waves-effect waves-light btn-primary d-inline-block">search</button>
+                        </div>
+                    </form>
+                    <NuxtLink to="/products/create">
+                        <span class="btn waves-effect waves-light btn-success d-inline-block">Create Product</span>
+                    </NuxtLink>
+                </div>
             </div>
             <div class="table-responsive">
-                <table class="table table-hover">
+                <table class="table table-hover" style="border-bottom: 1px solid #e8eef3">
                     <thead>
                         <tr>
                             <th scope="col">No.</th>
@@ -69,6 +68,24 @@
                         </tr>
                     </tbody>
                 </table>
+               <div class="d-flex aligin-item-end justify-content-between">
+                <div>
+                    <p  style="margin: 25px;">Total product: 300</p>
+                </div>
+                <ul class="pagination" style="margin: 25px;">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+               </div>
             </div>
         </div>
     </div>

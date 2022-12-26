@@ -25,22 +25,24 @@
     </div>
 
    <div class="container-fluid">
-    <div class="col-8">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Add Categories</h4>
-                    <form class="mt-3">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="nametext" aria-describedby="name" placeholder="Name">
-                            <small id="name" class="form-text text-muted">Helper Text</small>
-                        </div>
-                        <button type="button" class="btn waves-effect waves-light btn-success d-inline-block">Add Categorie</button>
-                    </form>
-             </div>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Add Categories</h4>
+                            <form class="mt-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="nametext" aria-describedby="name" placeholder="Name">
+                                    <small id="name" class="form-text text-muted">Helper Text</small>
+                                </div>
+                                <button type="button" class="btn waves-effect waves-light btn-success d-inline-block">Add Categorie</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+            <!-- categories list component -->
+            <CategoriesLists />
         </div>
-    </div>
-    <!-- categories list component -->
-    <CategoriesLists />
    </div>
 </template>
 

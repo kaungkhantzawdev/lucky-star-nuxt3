@@ -18,7 +18,7 @@ export default defineNuxtConfig({
             { rel: 'stylesheet', href: '/dist/css/style.min.css'},
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0'}
           ],
-          // script: [
+          script: [
           //   { src: '/assets/libs/jquery/dist/jquery.min.js' },
           //   { src: '/assets/libs/popper.js/dist/umd/popper.min.js' },
           //   { src: '/assets/libs/bootstrap/dist/js/bootstrap.min.js' },
@@ -27,12 +27,11 @@ export default defineNuxtConfig({
           //   { src: '/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js' },
           //   { src: '/dist/js/sidebarmenu.js' },
             //custom js
-          //   { src: '/dist/js/custom.min.js' },
+            { src: '/dist/global.js' },
 
-          // ],
+          ],
         }
       },
-
   
 })
 

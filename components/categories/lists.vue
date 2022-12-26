@@ -1,5 +1,5 @@
 <template>
-    <div class="col-12">
+    <div class="col-12 col-lg-8">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Categories table</h4>

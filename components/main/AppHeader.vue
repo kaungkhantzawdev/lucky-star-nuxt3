@@ -3,7 +3,7 @@
         <nav class="navbar top-navbar navbar-expand-md">
             <div class="navbar-header" data-logobg="skin6">
                 <!-- This is for the sidebar toggle which is visible on mobile only -->
-                <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)" onclick="menu()"><i
                         class="ti-menu ti-close"></i></a>
                 <!-- ============================================================== -->
                 <!-- Logo -->
