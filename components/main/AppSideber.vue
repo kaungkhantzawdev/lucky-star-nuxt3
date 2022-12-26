@@ -5,157 +5,36 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined" style="margin-right:5px; margin-bottom: 3px">
-                                    home
-                                </span>
-                                <span class="hide-menu">Dashboard</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="list-divider"></li>
-                        <li class="nav-small-cap"><span class="hide-menu">Applications</span></li>
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/avatars"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                account_circle
-                                </span>
-                                <span
-                                    class="hide-menu">Avatars</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/categories"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                category
-                                </span>
-                                <span
-                                    class="hide-menu">Categories</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/lucky-draw"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                shapes
-                                </span>
-                                <span
-                                    class="hide-menu">Lucky draw</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/products"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                shopping_bag
-                                </span>
-                                <span
-                                    class="hide-menu">Products</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/media"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                perm_media
-                                </span>
-                                <span
-                                    class="hide-menu">Media</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/result"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                receipt_long
-                                </span>
-                                <span
-                                    class="hide-menu">Result</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/shops"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                store
-                                </span>
-                                <span
-                                    class="hide-menu">Shops</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item">
-                             <NuxtLink class="sidebar-link" to="/tickets"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;">
-                                sell
-                                </span>
-                                <span
-                                    class="hide-menu">Tickets
-                                </span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item"> 
-                            <NuxtLink class="sidebar-link sidebar-link" to="/users"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;">
-                                group
-                                </span>
-                                <span
-                                    class="hide-menu">Users</span>
-                            </NuxtLink>
-                        </li>
-
-                        <li class="list-divider"></li>
-
-                        <li class="nav-small-cap"><span class="hide-menu">Authentication</span></li>
-
-                        <li class="sidebar-item"> 
-                            <NuxtLink class="sidebar-link sidebar-link" to="/auth/login"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                login
-                                </span>
-                                <span
-                                    class="hide-menu">Login</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item">
-                            <NuxtLink class="sidebar-link sidebar-link" to="/auth/register"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                    person
-                                </span>
-                                <span
-                                    class="hide-menu">Register</span>
-                            </NuxtLink>
-                        </li>
-
                     
-                        <li class="list-divider"></li>
-                        <li class="nav-small-cap"><span class="hide-menu">Extra</span></li>
-                        <li class="sidebar-item"> 
-                            <NuxtLink class="sidebar-link sidebar-link" to="/auth/login"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                edit_note
-                                </span>
-                                <span
-                                    class="hide-menu">document</span>
-                            </NuxtLink>
-                        </li>
-                        <li class="sidebar-item"> 
-                            <NuxtLink class="sidebar-link sidebar-link" to="/auth/login"
-                                aria-expanded="false">
-                                <span class="material-symbols-outlined"  style="margin-right:5px;  margin-bottom: 3px">
-                                logout
-                                </span>
-                                <span
-                                    class="hide-menu">Logout</span>
-                            </NuxtLink>
-                        </li>
+                        <SidebarItem link="/" icon-name="home" item-name="Dashboard"/>
+                        <SidebarDivider />
+                        <SidebarTitle title-name="Applications"/>
+                        <SidebarItem link="/avatars" icon-name="account_circle" item-name="Avatars"/>
+                        <SidebarItem link="/categories" icon-name="category" item-name="Categories"/>
+                        <SidebarItem link="/lucky-draw" icon-name="shapes" item-name="Lucky draw"/>
+                        <SidebarItem link="/products" icon-name="shopping_bag" item-name="Products"/>
+                        <SidebarItem link="/media" icon-name="perm_media" item-name="Media"/>
+                        <SidebarItem link="/result" icon-name="receipt_long" item-name="Result"/>
+                        <SidebarItem link="/shops" icon-name="store" item-name="Shops"/>
+                        <SidebarItem link="/tickets" icon-name="sell" item-name="Tickets"/>
+                        <SidebarItem link="/users" icon-name="group" item-name="Users"/>
+
+                        <SidebarDivider />
+
+                        <SidebarTitle title-name="Authentication"/>
+
+                        <SidebarItem link="/auth/login" icon-name="login" item-name="Login"/>
+
+                        <SidebarItem link="/auth/register" icon-name="person" item-name="Register"/>
+
+                        <SidebarDivider />
+
+                        <SidebarTitle title-name="Extra"/>
+
+                        <SidebarItem link="/auth/login" icon-name="edit_note" item-name="Document"/>
+
+                        <SidebarItem link="/auth/login" icon-name="logout" item-name="Logout"/>
+
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->

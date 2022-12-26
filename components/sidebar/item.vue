@@ -1,11 +1,11 @@
 <template>
-    <li class="sidebar-item">
+    <li :class="[{selected: route.fullPath == link },'sidebar-item']">
         <NuxtLink class="sidebar-link sidebar-link" :to="link"
             aria-expanded="false">
             <span class="material-symbols-outlined" style="margin-right:5px; margin-bottom: 3px">
                 {{ iconName }}
             </span>
-            <span class="hide-menu">Dashboard</span>
+            <span class="hide-menu">{{ itemName }}</span>
         </NuxtLink>
     </li>
 </template>
@@ -27,4 +27,7 @@
             default: 'home'
         }
     })
+
+    const route = useRoute()
+
 </script>

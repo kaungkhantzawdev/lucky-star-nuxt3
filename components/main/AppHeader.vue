@@ -146,9 +146,7 @@
                                 <select
                                     class="custom-select form-control bg-white custom-radius custom-shadow border-0">
                                     <option selected>EN</option>
-                                    <option value="1">AB</option>
-                                    <option value="2">AK</option>
-                                    <option value="3">BE</option>
+                                    <option value="1">CN</option>
                                 </select>
                             </div>
                         </a>

@@ -38,3 +38,11 @@
             </div>
         </div>
 </template>
+<script setup>
+function enableCustomLayout () {
+  setPageLayout('auth')
+}
+definePageMeta({
+  layout: false,
+});
+</script>
